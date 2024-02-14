@@ -8,7 +8,7 @@ Lab Time: Thursday, 2pm - 3:15pm
 def reverse_string():
     # YOUR CODE HERE
     while True:
-        user_string = str(input("Enter string of text (Done/done/d for exit): "))
+        user_string = str(input())
         if user_string == 'Done' or user_string == 'done' or user_string == 'd':
             return 1
         else:

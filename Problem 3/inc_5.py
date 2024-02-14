@@ -7,13 +7,13 @@ Lab Time: Thursday, 2pm - 3:15pm
 
 def inc_5():
     # Write your code here
-    first_integer = int(input("Enter first integer: "))
-    second_integer = int(input("Enter second integer: "))
+    first_integer = int(input())
+    second_integer = int(input())
     if first_integer <= second_integer:
         current_value = first_integer
 
         while current_value <= second_integer:
-            print(current_value, end=" ")
+            print(current_value, end = " ")
             current_value += 5
         print() 
     else:
